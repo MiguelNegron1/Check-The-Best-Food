@@ -1,0 +1,70 @@
+/* Hero Container */
+
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.probar{
+    display: block;
+}
+.hero__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    height: 300px;
+}
+
+.hero__info{
+    width: 320px;
+
+}
+.hero__info p{
+    margin-bottom: 30px;
+
+}
+
+.hero__info h1{
+    color: rgb(0, 0, 151);
+
+}
+
+.hero__info button{
+    background-color: orange;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    /* height: 60px; */
+    width: 200px;
+    display: block;
+    margin-bottom: 170px;
+}
+
+.hero-image img{
+    width: 20px;
+    height: 500px;
+}
+
+
+/* Our Services Container */
+
+
+
+
+
+/* Home Menu Container */
+menu{
+
+}
+.Home-menu__container{
+    display: grid;
+    grid
+}
+menu__item{
+
+}

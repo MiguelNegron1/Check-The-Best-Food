@@ -9,11 +9,16 @@
 </head>
 <body>
     <main>
-            <div class="hero__container">
+        <section class="hero">
                 <div class="hero__info">
-                    <h1>Check The <br> Best Food</h1>
+                    <h1 class="hero__title">Check The <br> Best Food</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, impedit quisquam vitae deserunt et recusandae at quaerat iusto quo est aut officia qui totam, nulla velit, repellendus consequatur molestiae neque.</p>
-                    <button>Suscribete</button>
+                    <a class="hero__anchor" href="#">
+                        <button  class="hero__anchor--button--grid">
+                            <div class="button__item">Book A Table</div> 
+                            <!-- <figure class="button__item"><img src="/assets/right-arrow-alt-regular-24 (1).png" alt=""></figure> -->
+                        </button>
+                    </a>
                     <a href="#">
                         <img src="/assets/facebook-logo-24.png" alt="logo de facebook">
                     </a>
@@ -24,36 +29,29 @@
                         <img src="/assets/twitter-logo-24.png" alt="logo de twitter">
                     </a>        
                 </div>
-                <div class="hero__img">
-                    <figure>
-                        <img src="/assets/hero.png" alt="spaghetti img">
-                    </figure>
-                </div>
-            </div>
-        <section class=" Our-Services">
-            <h2>Our Services</h2>
-            <div class="our-services__container"></div>
-
+                <figure >
+                    <img class="hero__img" src="/assets/hero-PhotoRoom.png" alt="spaghetti img">
+                </figure>
+        </section>
+        <section class=" our-services">
+            <h2 class="our-services__title">Our Services</h2>
+            <figure class="our-services--grid__container">
+                <img src="/assets/video (1).png" alt="" class="item item--big">
+                <img  class="item" src="/assets/dish1.png" alt="" >
+                <img  class="item" src="/assets/dish2.png" alt="" >
+                <img  class="item" src="/assets/dish3.png" alt="" >
+                <img  class="item" src="/assets/dish4.png" alt="" >
+            </figure>
         </section>
         <section class="menu">
-            <h3>Home Menu</h3>
-            <div class="Home-menu__container">
-                <div class="menu__item">
-                    <img src="/assets/plate1.png" alt="">
-                </div>
-                <div class="menu__item">
-                    <img src="/assets/plate2.png" alt="">
-                </div>
-                <div class="menu__item">
-                    <img src="/assets/plate3.png" alt="">
-                </div>
-                <div class="menu__item">
-                    <img src="/assets/plate4.png" alt="">
-                </div>
-                <div class="menu__item">
-                    <img src="/assets/plate5.png" alt="">
-                </div>
-            </div>
+            <h3 class="menu__title">Home Menu</h3>
+            <figure class="home-menu__container">
+                <img class="menu__item" src="/assets/plate1.png" alt="">
+                <img class="menu__item" src="/assets/plate2.png" alt="">
+                <img class="menu__item" src="/assets/plate3.png" alt="">
+                <img class="menu__item" src="/assets/plate4.png" alt="">
+                <img class="menu__item" src="/assets/plate5.png" alt="">
+            </figure>
         </section>
     </main>
     
